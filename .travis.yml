@@ -9,7 +9,12 @@ android:
     - extra-google-m2repository
     - extra-google-google_play_services
     - extra-android-m2repository
+    - add-on
+    - extra
   licenses:
       - 'android-sdk-preview-license-52d11cd2'
       - 'android-sdk-license-.+'
       - 'google-gdk-license-.+'
+  script:
+    - ./gradlew build
+    - ./gradlew assembleDebug
