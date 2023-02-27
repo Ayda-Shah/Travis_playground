@@ -3,7 +3,7 @@ dist: trusty
 
 script:
     - ./gradlew build
-    - ./gradlew assembleDebug
+#    - ./gradlew assembleDebug
 
 android:
   components:
